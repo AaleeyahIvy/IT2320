@@ -1,0 +1,29 @@
+#container
+{
+    width: 500px;
+    color: purple;
+}
+div{
+    border: 1px solid pink;
+    padding: 5px;
+}
+
+section p, a, div, h1{
+    margin-left: 5px;
+    color: navy;
+}
+
+#content
+{
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid hotpink;
+    background-color: lightblue;
+}
+
+#btnPanel, #btnPanel2
+{
+    background-color: black;
+    width: 700px;
+    padding: 20px;    
+}
