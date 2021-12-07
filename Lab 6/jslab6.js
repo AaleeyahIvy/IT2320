@@ -3,7 +3,7 @@
 
 function createLink(){
     var parent = document.getElementById('parentLink');
-    var child = document.createElement('childlink');
+    var child = document.createElement('a');
     child.href = "http://www.tri-c.edu";
     parent.appendChild(child);
     alert(child.href);
@@ -18,7 +18,7 @@ function removeLink(){
 }
 
 function changeColor(){
-    var color =  document.getElementById("box");
+    var color = document.getElementById("box");
     color.style.backgroundColor = 'cyan'; // Box turns cyan
 
 }
@@ -49,10 +49,10 @@ function toggleColor(){
         squareTwo[i].style.color = "white";
     }
 }
-function changeShape(){
-    var square = document.getElementsByClassName("square1");
-
-    for(let i = 0; i<square.length; i++){
-        square[i].style.borderRadius = "100px";
-    }
+function changeShape()
+{
+    var radius = document.getElementById("inputRadius").value;
+    
+    var box = document.getElementById("box");
+    box.style.borderRadius = radius;
 }
