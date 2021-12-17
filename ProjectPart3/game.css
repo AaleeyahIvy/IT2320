@@ -1,0 +1,66 @@
+#container
+{
+    width: 840px;
+    height: 640px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#container div
+{   
+    width: 200px;
+    height: 200px;
+    float: left; 
+    margin: 2px;
+    padding: 1px;
+    border: solid 2px white;
+    border-radius: 10px;    
+}
+
+#container img
+{
+    text-align: center;
+    width: 172px;
+    height: 172px;
+    opacity: 0;
+}
+
+#newGame
+{
+    width: 250px;
+    height: 75px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    text-align: center; 
+    font-size: 1.5em;
+    font-weight: bold;  
+    color: white;   
+}
+
+#messages
+{   
+    box-shadow: 5px grey;
+    font-size: 1em;
+    font-weight: bold;
+    color: skyblue;
+    width: 850px;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h1
+{
+    color: darkblue;
+}
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+  }
+  
